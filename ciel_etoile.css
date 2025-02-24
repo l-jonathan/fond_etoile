@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(165deg, #0a0b14, 92%, #554144);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.star {
+    position: absolute;
+    border-radius: 50%;
+    animation: sparkling 5s infinite;
+}
+
+.white {
+    background-color: white;
+}
+
+.blue {
+    background-color: rgb(123, 119, 153);
+    box-shadow: 0px 0px 2px rgb(158, 150, 218);
+}
+
+.yellow {
+    background-color: rgb(180, 164, 140);
+}
+
+@keyframes sparkling {
+     from { opacity: 1; }
+     50%   { opacity: 0.1; }
+     to   { opacity: 1; }
+}
